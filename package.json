@@ -1,5 +1,5 @@
 {
-  "name": "easy-args",
+  "name": "e-args",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@7.2.1",
@@ -7,12 +7,12 @@
   "author": "Simon He",
   "license": "MIT",
   "funding": "https://github.com/sponsors/Simon-He95",
-  "homepage": "https://github.com/Simon-He95/easy-args#readme",
+  "homepage": "https://github.com/Simon-He95/e-args#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Simon-He95/easy-args.git"
+    "url": "git+https://github.com/Simon-He95/e-args.git"
   },
-  "bugs": "https://github.com/Simon-He95/easy-args/issues",
+  "bugs": "https://github.com/Simon-He95/e-args/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
