@@ -1,4 +1,4 @@
-## easy-args
+## e-args
 Help you quickly process argv
 
 ## Install
