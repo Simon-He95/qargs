@@ -1,5 +1,5 @@
 {
-  "name": "q-args",
+  "name": "@simon_he/qargs",
   "type": "module",
   "version": "0.0.2",
   "packageManager": "pnpm@7.2.1",
@@ -7,12 +7,12 @@
   "author": "Simon He",
   "license": "MIT",
   "funding": "https://github.com/sponsors/Simon-He95",
-  "homepage": "https://github.com/Simon-He95/q-args#readme",
+  "homepage": "https://github.com/Simon-He95/qargs#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Simon-He95/q-args.git"
+    "url": "git+https://github.com/Simon-He95/qargs.git"
   },
-  "bugs": "https://github.com/Simon-He95/q-args/issues",
+  "bugs": "https://github.com/Simon-He95/qargs/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
