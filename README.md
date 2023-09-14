@@ -1,4 +1,4 @@
-## q-args
+## @simon_he/qargs
 Help you quickly process argv
 
 ## Install
@@ -7,10 +7,10 @@ npm i easy-args
 ```
 
 ## Usage
-```bash
-import easyArgs from 'easy-args'
+```javascript
+import { getArgs } from '@simon_he/qargs'
 
-const args = easyArgs()
+const args = getArgs()
 // run --help
 args.has('help') // true
 
@@ -22,6 +22,19 @@ args.get(['username','password']) // [simon_he,123456]
 
 // run find
 args.hasCommand('find') // true
+```
+
+## Options
+```typescript
+{
+    args: string[];
+    rawArgs: string;
+    options: Options[];
+    commanders: string[];
+    has: (key: string) => boolean;
+    get: (key: string | string[]) => string | boolean | (string | boolean | undefined)[] | undefined;
+    hasCommand: (key: string) => boolean;
+}
 ```
 
 ## License

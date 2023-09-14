@@ -1,7 +1,7 @@
 import type { Options } from './type'
 export * from './type'
 
-export function easyArgs() {
+export function getArgs() {
   const args = process.argv.slice(2)
   const options: Options[] = []
   const commanders: string[] = []
