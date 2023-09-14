@@ -1,6 +1,7 @@
 import type { Options } from './type'
+export * from './type'
 
-function easyArgs() {
+export function easyArgs() {
   const args = process.argv.slice(2)
   const options: Options[] = []
   const commanders: string[] = []
@@ -12,7 +13,7 @@ function easyArgs() {
     if (match) {
       const name = match[1]
       const value = args[i + 1]
-      options.push({ name, value: value.startsWith('-') ? undefined : value })
+      options.push({ name, value: value !== undefined ? value.startsWith('-') ? true : value : true })
     }
     else {
       commanders.push(arg)
@@ -34,6 +35,8 @@ function easyArgs() {
   }
 
   return {
+    args,
+    rawArgs: args.join(' '),
     options,
     commanders,
     has,
@@ -42,4 +45,3 @@ function easyArgs() {
   }
 }
 
-export default easyArgs
