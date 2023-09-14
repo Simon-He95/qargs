@@ -3,7 +3,7 @@ Help you quickly process argv
 
 ## Install
 ```bash
-npm i easy-args
+npm i @simon_he/qargs
 ```
 
 ## Usage
